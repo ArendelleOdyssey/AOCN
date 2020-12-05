@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>翻墙基础指南</title>
+    <link href="/AntiGFW/Basic/how-to-fq/"/>
+    <url>/AntiGFW/Basic/how-to-fq/</url>
+    
+    <content type="html"><![CDATA[<p>要加入我们Arendelle Odyssey，您需要拥有一个<a href="https://discord.com/">Discord</a>账户。但是，在中国大陆，如果你的设备没有设置过代理的话，那你只能得到一个<code>Connection Time Out</code>的错误或者一个只有文字而不能发图片的Discord，您的作品也无法提交，AO在YouTube、Instagram等平台的活动也与您无缘了。当然，您可以找中文区大使帮忙提交，但这种方案毕竟太过麻烦。</p><a id="more"></a><h1 id="为什么在国内没法使用Discord？"><a href="#为什么在国内没法使用Discord？" class="headerlink" title="为什么在国内没法使用Discord？"></a>为什么在国内没法使用Discord？</h1><p>很简单：Discord的服务器在国内被屏蔽了。</p><p>由于GFW（又叫国家防火墙/防火长城）的存在，数十万个国外网站在中国大陆通过骨干网无法访问。这其中包括了Google、YouTube、Instagram等世界顶级网站，当然也包括了Discord。封锁的原理很复杂，涉及到DNS污染、IP封锁等专业内容，因此不在此赘述。至于为什么要架设GFW，那就不仅仅是一个技术问题，更是一个政治问题了。</p><p>那有没有办法绕过GFW呢？显然是有的，这些行为被称作翻墙。毕竟上有政策下有对策，有很多的项目意图避开GFW的封锁，其中包括<a href="https://getlantern.org/zh_CN/">蓝灯</a>这种大型商业项目，也有<a href="shadowsocks.org">shadowsocks</a>这类GitHub标星过万的开源项目。另外，谷歌上也可以搜到很多很多内容。当然，要注意一点：翻墙相关的内容有很强的时效性，因此如果要自己搜索资料的话请尽量找最新的资料。</p><p>接下来，我们将介绍几种常见的翻墙方式</p><h1 id="常见的翻墙方式"><a href="#常见的翻墙方式" class="headerlink" title="常见的翻墙方式"></a>常见的翻墙方式</h1><h2 id="VPN-蓝灯"><a href="#VPN-蓝灯" class="headerlink" title="VPN/蓝灯"></a>VPN/蓝灯</h2><p class="note note-danger">笔者极其不建议使用来路不明的VPN，并且建议如果能使用后面讲的其他方法翻墙则立刻放弃VPN</p><p>这些翻墙方法前几年特别流行，但现在几乎已经不能用了。他们的使用极其简单：下载好对应的软件，选择好地区，然后连接上之后就可以直接使用了。但千万注意：<strong>不要使用来路不明的VPN！！！</strong>使用来路不明的VPN甚至可能会导致密码等信息的泄露！！！因此<strong>不要使用来路不明的VPN！！！</strong>要用就用NordVPN这种老牌/大牌！！</p><h2 id="Shadowsocks"><a href="#Shadowsocks" class="headerlink" title="Shadowsocks"></a>Shadowsocks</h2><p>2012.4.22是一个对于中文互联网有着开天辟地的意义的日子。</p><p>这一天，<code>clowwindy</code>在V2EX上最早公开了Shadowsocks，从此开启了中国翻墙界的新纪元。在此之后的ShadowsocksR、v2ray、Trojan等都是在其基础上所开发出来的。他的具体原理不在此文范畴，但它的使用是每一个中国网民都应该知道的。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>AntiGFW</category>
+      
+      <category>Basic</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>翻墙（科学上网）</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/uncategorized/hello-world/"/>
+    <url>/uncategorized/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
