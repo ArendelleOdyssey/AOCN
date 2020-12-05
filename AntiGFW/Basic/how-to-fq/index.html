@@ -176,7 +176,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      692 字
+      1k 字
     </span>
   
 
@@ -186,7 +186,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      7
+      11
        分钟
     </span>
   
@@ -235,6 +235,26 @@
 <p>这些翻墙方法前几年特别流行，但现在几乎已经不能用了。他们的使用极其简单：下载好对应的软件，选择好地区，然后连接上之后就可以直接使用了。但千万注意：<strong>不要使用来路不明的VPN！！！</strong>使用来路不明的VPN甚至可能会导致密码等信息的泄露！！！因此<strong>不要使用来路不明的VPN！！！</strong>要用就用NordVPN这种老牌/大牌！！</p>
 <h2 id="Shadowsocks"><a href="#Shadowsocks" class="headerlink" title="Shadowsocks"></a>Shadowsocks</h2><p>2012.4.22是一个对于中文互联网有着开天辟地的意义的日子。</p>
 <p>这一天，<code>clowwindy</code>在V2EX上最早公开了Shadowsocks，从此开启了中国翻墙界的新纪元。在此之后的ShadowsocksR、v2ray、Trojan等都是在其基础上所开发出来的。他的具体原理不在此文范畴，但它的使用是每一个中国网民都应该知道的。</p>
+<p>您可以在<a target="_blank" rel="noopener" href="https://github.com/">GitHub</a>下载到shadowsocks的各个不同版本：</p>
+<p><a class="btn" target="_blank" rel="noopener" href="https://github.com/shadowsocks/shadowsocks-windows/releases/" title="Windows">Shadowsocks Windows</a></p>
+<p><a class="btn" target="_blank" rel="noopener" href="https://github.com/shadowsocks/shadowsocksX-NG/releases/" title="macOS">ShadowsocksX-NG (适用于macOS)</a></p>
+<p><a class="btn" target="_blank" rel="noopener" href="https://github.com/shadowsocks/shadowsocks-android/releases/" title="Android">Shadowsocks Android</a></p>
+<p>iOS上可以使用付费的Shadowrocket，但是需要一个美区Apple ID账户。</p>
+<p>我们这里以Shadowsocks Windows为例讲解一下Shadowsocks的使用。</p>
+<h3 id="Shadowsocks-Windows使用"><a href="#Shadowsocks-Windows使用" class="headerlink" title="Shadowsocks Windows使用"></a>Shadowsocks Windows使用</h3><p>下载打开后，在托盘处会出现一个小飞机：</p>
+<p><img src="https://i.loli.net/2020/12/05/xcUrtzd4a2mgKFW.png" srcset="/img/loading.gif"></p>
+<p>右键选择<code>Edit Servers</code>:</p>
+<p><img src="https://i.loli.net/2020/12/05/T4grH5ns8WZ7QBF.png" srcset="/img/loading.gif"></p>
+<p>按照图示填写信息：</p>
+<p><img src="https://i.loli.net/2020/12/05/bgCpOeFB732Lslf.png" srcset="/img/loading.gif"></p>
+<p>最后点击OK保存设置然后关闭窗口。</p>
+<p>接着我们仍然右键点击小飞机，仍然选到Servers里，就能找到我们刚才输入的服务器配置了。</p>
+<p><img src="https://i.loli.net/2020/12/05/X7sLGzy28qbQH9Z.png" srcset="/img/loading.gif"></p>
+<p>然后选到<code>System Proxy</code>里选择<code>Global</code>即可全局代理。</p>
+<p><img src="https://i.loli.net/2020/12/05/D5rtSjkclEW67oH.png" srcset="/img/loading.gif"></p>
+<p>有时候别人给的节点使用分享链接（就是以<code>ss://</code>开头的一串字符）的形式发出来的，这个时候复制下那段链接，然后选择<code>Servers</code>下的<code>Import URL from Clipboard</code>即可。有时候如果是以二维码的形式发出来的话就选择<code>Scan QRCode from Screen</code>。需要注意的是这个时候屏幕上只能有一个二维码。</p>
+<p>有时候如果挂了全局代理会导致国内网站访问极慢，因此shadowsocks也有一个PAC模式，可以选择性的进行代理，绕开国内网站。打开它只需要在<code>System Proxy</code>中选择<code>PAC</code>即可</p>
+<h3 id="万事俱备，只欠东风！"><a href="#万事俱备，只欠东风！" class="headerlink" title="万事俱备，只欠东风！"></a>万事俱备，只欠东风！</h3><p>软件已经准备好了，就差服务器节点了。</p>
 
             </div>
             <hr>
@@ -270,12 +290,6 @@
                   </article>
                   <article class="post-next col-6">
                     
-                    
-                      <a href="/uncategorized/hello-world/">
-                        <span class="hidden-mobile">Hello World</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
                     
                   </article>
                 </div>
