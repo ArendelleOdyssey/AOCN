@@ -15,7 +15,7 @@
   
   <meta name="theme-color" content="#853693">
   <meta name="description" content="">
-  <meta name="author" content="Arendelle Odyssey">
+  <meta name="author" content="Listener1379">
   <meta name="keywords" content="">
   <title>翻墙基础指南 - Arendelle Odyssey</title>
 
@@ -161,6 +161,11 @@
             
               <div class="mt-3">
   
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-author" aria-hidden="true"></i>
+      Listener1379
+    </span>
+  
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
@@ -186,7 +191,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      22
+      23
        分钟
     </span>
   
@@ -228,7 +233,7 @@
 
 <h1 id="为什么在国内没法使用Discord？"><a href="#为什么在国内没法使用Discord？" class="headerlink" title="为什么在国内没法使用Discord？"></a>为什么在国内没法使用Discord？</h1><p>很简单：Discord的服务器在国内被屏蔽了。</p>
 <p>由于GFW（又叫国家防火墙/防火长城）的存在，数十万个国外网站在中国大陆通过骨干网无法访问。这其中包括了Google、YouTube、Instagram等世界顶级网站，当然也包括了Discord。封锁的原理很复杂，涉及到DNS污染、IP封锁等专业内容，因此不在此赘述。至于为什么要架设GFW，那就不仅仅是一个技术问题，更是一个政治问题了。</p>
-<p>那有没有办法绕过GFW呢？显然是有的，这些行为被称作翻墙。毕竟上有政策下有对策，有很多的项目意图避开GFW的封锁，其中包括<a target="_blank" rel="noopener" href="https://getlantern.org/zh_CN/">蓝灯</a>这种大型商业项目，也有<a href="shadowsocks.org">shadowsocks</a>这类GitHub标星过万的开源项目。另外，谷歌上也可以搜到很多很多内容。当然，要注意一点：翻墙相关的内容有很强的时效性，因此如果要自己搜索资料的话请尽量找最新的资料。</p>
+<p>那有没有办法绕过GFW呢？显然是有的，这些行为被称作翻墙。毕竟上有政策下有对策，有很多的项目意图避开GFW的封锁，其中包括<a target="_blank" rel="noopener" href="https://getlantern.org/zh_CN/">蓝灯</a>这种大型商业项目，也有<a target="_blank" rel="noopener" href="https://shadowsocks.org/">shadowsocks</a>这类GitHub标星过万的开源项目。另外，谷歌上也可以搜到很多很多内容。当然，要注意一点：翻墙相关的内容有很强的时效性，因此如果要自己搜索资料的话请尽量找最新的资料。</p>
 <p>接下来，我们将介绍几种常见的翻墙方式</p>
 <h1 id="常见的翻墙方式"><a href="#常见的翻墙方式" class="headerlink" title="常见的翻墙方式"></a>常见的翻墙方式</h1><h2 id="VPN-蓝灯"><a href="#VPN-蓝灯" class="headerlink" title="VPN/蓝灯"></a>VPN/蓝灯</h2><p class="note note-danger">笔者极其不建议使用来路不明的VPN，并且建议如果能使用后面讲的其他方法翻墙则立刻放弃VPN</p>
 
@@ -239,7 +244,7 @@
 <p><a class="btn" target="_blank" rel="noopener" href="https://github.com/shadowsocks/shadowsocks-windows/releases/" title="Windows">Shadowsocks Windows</a></p>
 <p><a class="btn" target="_blank" rel="noopener" href="https://github.com/shadowsocks/shadowsocksX-NG/releases/" title="macOS">ShadowsocksX-NG (适用于macOS)</a></p>
 <p><a class="btn" target="_blank" rel="noopener" href="https://github.com/shadowsocks/shadowsocks-android/releases/" title="Android">Shadowsocks Android</a></p>
-<p>iOS上可以使用付费的<a target="_blank" rel="noopener" href="https://t.co/71WmA40E3p?amp=1">Shadowrocket</a>，但是需要一个美区Apple ID账户。</p>
+<p>iOS上可以使用付费的<a target="_blank" rel="noopener" href="https://t.co/71WmA40E3p?amp=1">Shadowrocket</a>，但是需要一个美区Apple ID账户。至于Linux用户，既然都已经能用上Linux了，动手能力一定不差，自己也就能解决这些问题。</p>
 <p>我们这里以Shadowsocks Windows为例讲解一下Shadowsocks的使用。</p>
 <h3 id="Shadowsocks-Windows使用"><a href="#Shadowsocks-Windows使用" class="headerlink" title="Shadowsocks Windows使用"></a>Shadowsocks Windows使用</h3><p>下载打开后，在托盘处会出现一个小飞机：</p>
 <p><img src="https://i.loli.net/2020/12/05/xcUrtzd4a2mgKFW.png" srcset="/img/loading.gif"></p>
@@ -252,8 +257,8 @@
 <p><img src="https://i.loli.net/2020/12/05/X7sLGzy28qbQH9Z.png" srcset="/img/loading.gif"></p>
 <p>然后选到<code>System Proxy</code>里选择<code>Global</code>即可全局代理。</p>
 <p><img src="https://i.loli.net/2020/12/05/D5rtSjkclEW67oH.png" srcset="/img/loading.gif"></p>
-<p>有时候别人给的节点使用分享链接（就是以<code>ss://</code>开头的一串字符）的形式发出来的，这个时候复制下那段链接，然后选择<code>Servers</code>下的<code>Import URL from Clipboard</code>即可。有时候如果是以二维码的形式发出来的话就选择<code>Scan QRCode from Screen</code>。需要注意的是这个时候屏幕上只能有一个二维码。</p>
-<p>有时候如果挂了全局代理会导致国内网站访问极慢，因此shadowsocks也有一个PAC模式，可以选择性的进行代理，绕开国内网站。打开它只需要在<code>System Proxy</code>中选择<code>PAC</code>即可</p>
+<p>有时候别人给的节点使用分享链接（就是以<code>ss://</code>开头的一串字符）的形式发出来的，这个时候复制下那段链接，然后选择<code>Servers</code>下的<code>Import URL from Clipboard</code>即可。有时候如果是以二维码的形式发出来的话就选择<code>Scan QRCode from Screen</code>扫描二维码。需要注意的是这个时候屏幕上只能有一个二维码。</p>
+<p>有时候如果挂了全局代理会导致国内网站访问极慢，因此shadowsocks也有一个PAC模式，可以选择性的进行代理，绕开国内网站。打开它只需要在<code>System Proxy</code>中选择<code>PAC</code>即可。</p>
 <h3 id="万事俱备，只欠东风！"><a href="#万事俱备，只欠东风！" class="headerlink" title="万事俱备，只欠东风！"></a>万事俱备，只欠东风！</h3><p>软件已经准备好了，就差服务器节点了。</p>
 <p>代理服务器有很多来源：自己用vps搭建的，在机场买的，别人分享的，网上白嫖来的，等等等等数不胜数。有些动手能力强的人可以选择自己搭建，优点是节点完全在自己手里自己可以完全的控制，缺点是在敏感时期不稳定，坏了一个节点就要重建，有时还要自己处理各种bug；而机场则刚好相反，虽然没法自己控制节点，但速度快，稳定，且不用自己解决各种问题。因此各有优劣吧。</p>
 <p>这里笔者给一个免费分享shadowsocks节点的网站。<strong>这些节点可靠性未知，故请谨慎使用</strong>。链接：<a target="_blank" rel="noopener" href="http://free-ss.site/">http://free-ss.site</a></p>
@@ -322,6 +327,12 @@
                   <article class="post-next col-6">
                     
                     
+                      <a href="/AboutAO/welcome-to-ao/">
+                        <span class="hidden-mobile">欢迎来到Arendelle Odyssey！</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
                   </article>
                 </div>
               
@@ -384,7 +395,7 @@
 
   <footer class="text-center mt-5 py-3">
   <div class="footer-content">
-     <p>Arendelle Odyssey 荣誉出品</p><br> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> <br/><p>Arendelle Odyssey 荣誉出品</p> 
   </div>
   
 
