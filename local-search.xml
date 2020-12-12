@@ -62,7 +62,7 @@
     <link href="/AOWorks/Video/sots/"/>
     <url>/AOWorks/Video/sots/</url>
     
-    <content type="html"><![CDATA[<p><a class="btn" href="https://www.bilibili.com/video/BV1yy4y167Zp" title="Spirit of Two Sisters">Bilibili观看</a></p><iframe src="//player.bilibili.com/player.html?aid=797908513&bvid=BV1yy4y167Zp&cid=260439270&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>Arendelle Odyssey艾伦戴尔奥德赛-合作剪辑作品<br>Spirit of Two Sisters姐妹情深<br>由AO Editors团队呈现<br>欢迎点赞，关注，转发！<br>BGM：Secret Key - Ghostwriter<br>加入艾伦戴尔奥德赛！<a href="https://discord.com/invite/arendelleodyssey">https://discord.com/invite/arendelleodyssey</a></p>]]></content>
+    <content type="html"><![CDATA[<p><a class="btn" href="https://www.bilibili.com/video/BV1yy4y167Zp" title="Spirit of Two Sisters">Bilibili观看</a></p><a id="more"></a><script type="text/javascript">​                $(function(){            changeWH();         });    function changeWH(){        $("#sots").height($(document).height());        $("#sots").width($(document).width());    }    window.οnresize=function(){           changeWH();      } </script><iframe src="//player.bilibili.com/player.html?aid=797908513&bvid=BV1yy4y167Zp&cid=260439270&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style=”width: 200%; height: 500px; max-width: 100%；align:center; padding:20px 0;”> </iframe><p>Arendelle Odyssey艾伦戴尔奥德赛-合作剪辑作品<br>Spirit of Two Sisters姐妹情深<br>由AO Editors团队呈现<br>欢迎点赞，关注，转发！<br>BGM：Secret Key - Ghostwriter<br>加入艾伦戴尔奥德赛！<a href="https://discord.com/invite/arendelleodyssey">https://discord.com/invite/arendelleodyssey</a></p>]]></content>
     
     
     <categories>
