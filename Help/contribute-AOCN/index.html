@@ -181,7 +181,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      465 字
+      746 字
     </span>
   
 
@@ -191,7 +191,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      5
+      9
        分钟
     </span>
   
@@ -273,6 +273,23 @@ git config --global user.email &quot;&lt;email&gt;&quot;</code></pre>
 <p>这时当前目录下会出现一个叫做<code>AOCN-source</code>的新文件夹。进入这个文件夹，输入：</p>
 <pre><code class="hljs shell">npm install --force</code></pre>
 
+<h1 id="Step-2：开始写作"><a href="#Step-2：开始写作" class="headerlink" title="Step 2：开始写作"></a>Step 2：开始写作</h1><p>命令行输入：</p>
+<pre><code class="hljs shell">hexo new &lt;new-post&gt;</code></pre>
+
+<p>其中<code>&lt;new-post&gt;</code>为新文章的文件名，建议使用全英文并且不添加空格。</p>
+<p>然后进入<code>source/_post</code>目录，其中会出现一个文件名为<code>&lt;new-post&gt;.md</code>的文件，用typora打开。同时可以在<code>AOCN-source</code>目录下输入<code>hexo s</code>指令，然后再在浏览器里打开<a target="_blank" rel="noopener" href="http://localhost:4000/">localhost:4000</a>实时预览</p>
+<p>编辑完成后在命令行输入<code>Ctrl+C</code>关闭实时预览，在<code>AOCN-source</code>目录下输入：</p>
+<pre><code class="hljs shell">hexo g
+hexo d
+<span class="hljs-meta">#</span><span class="bash"> 或者可以缩写为一个指令：hexo g -d</span></code></pre>
+
+<p><code>AOCN-source</code>目录下会出现一个叫做<code>public</code>的文件夹。这就是生成的静态网站文件，这些文件已经同步到了Coding上的仓库中进行自动部署。注意，自动部署完成与本机发出部署命令会有一定的延迟。</p>
+<h1 id="Step-3：同步源码文件"><a href="#Step-3：同步源码文件" class="headerlink" title="Step 3：同步源码文件"></a>Step 3：同步源码文件</h1><p>仍然是在<code>AOCN-source</code>目录下打开命令行，输入：</p>
+<pre><code class="hljs shell">git add .
+git commit -m &quot;&lt;commit&gt;&quot;
+git push origin master</code></pre>
+
+<p>其中<code>&lt;commit&gt;</code>改为你对你所做修改的描述。</p>
 
             </div>
             <hr>
